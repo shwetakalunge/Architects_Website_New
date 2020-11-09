@@ -1,0 +1,401 @@
+/*---------------------------------------------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Goldman', sans-serif;
+}
+
+
+/*------------------------------------------------------------------------------*/
+.container {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    filter: invert(100%);
+  margin-top: 30px
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    align-items: center
+}
+
+.col {
+    flex-basis: 100%;
+    margin: auto
+}
+
+h1 {
+    color: #333333;
+    font-size: 50px;
+    line-height: 50px;
+
+}
+
+h3 {
+    color: #BDBDBD;
+    font-size: 30px;
+}
+
+.fa-long-arrow-right {
+    padding: 12px 0;
+    border-radius: 00px;
+    background: #F9F9F9;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    color: #BDBDBD;
+}
+
+.fa-long-arrow-left {
+    padding: 12px 0;
+    border-radius: 00px;
+    background: #F9F9F9;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    color: #BDBDBD;
+    margin-right: 15px
+}
+
+.p_header {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #BDBDBD;
+    padding: 12px 0;
+}
+
+.Hero_image {
+    width: 500px;
+}
+
+.Image_btn {
+    padding: 20px 20px 20px 20px;
+    border-radius: 00px;
+    background: white;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 150px;
+    border: 1px solid #F2F2F2;
+
+}
+
+.fa-arrow-right {
+    margin-left: 15px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+.Second_row {
+    height: auto;
+    margin-top: 30px;
+    background: green;
+
+}
+
+.Second_para h4 {
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+    color: #BDBDBD;
+}
+
+.Second_para p {
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    line-height: 25px;
+    word-spacing: 1px;
+    padding: 20px;
+
+}
+
+.Subimage1,
+.Subimage3 {
+    padding: 20px;
+    width: 100%;
+    margin: auto
+}
+
+.image2_box {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.Subimage2 {
+    width: 350px;
+    padding: 20px;
+}
+
+.Image_btn2 {
+    padding: 20px 20px 20px 20px;
+    background: #FFFFFF;
+    width: 200px;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin-left: 5%
+}
+
+.image1_box {}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+.Third_Section {
+    background-color: white;
+    margin-top: 35px;
+
+}
+
+.main_div {
+    display: flex
+}
+
+.image3_box {
+    display: flex;
+    width: 50%;
+    padding: 20px
+}
+
+.image4_box {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+   
+}
+
+.ThirdSec_span1 {
+    width: 40%;
+    padding: 25px
+}
+
+.ThirdSec_span2 {
+    width: 50%;
+    padding: 25px
+}
+
+h5 {
+    color: #BDBDBD;
+    font-size: 50px;
+    background-color: white;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.Grid_Image {
+    margin-top: 30px;
+  
+}
+
+.Grid_Image h4 {
+    font-size: 40px;
+    color: #BDBDBD;
+    margin-top: 30px;
+
+}
+
+.grid_Row1,
+.grid_Row2 {
+    display: inline-flex;
+
+}
+
+.grid_image1,
+.grid_image2,
+.grid_image3,
+.grid_image4,
+.grid_image5 {
+    padding: 20px;
+    width: 100%;
+    margin: auto
+}
+
+/*.grid_image2 {
+    width: 550px
+}
+.grid_image5{
+     width: 100%
+}*/
+.Image_btn3 {
+    padding: 20px 20px 20px 20px;
+    background: aqua;
+    width: 150px;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    color: #FFFFFF;
+    background: #333333;
+    margin-right: 50px
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.Section_ContactForm {
+    margin-top: 30px;
+}
+
+.Section_ContactForm h4 {
+    font-size: 40px;
+    color: #BDBDBD;
+}
+
+.Contact_Form {}
+
+.contact_formImage {
+    width: 100%;
+    height: 400px
+}
+
+input[type=text],
+textarea,
+p {
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+p {
+    border: none;
+
+}
+
+.Image_btn4 {
+    padding: 20px 20px 20px 20px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    color: #FFFFFF;
+    background: #333333;
+    height: auto;
+
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+.originalLogo {
+    width: 110px;
+    margin-left: 25px;
+
+}
+
+footer {
+    background: #2C2C2C;
+    margin-top: 25px;
+
+}
+
+.footer-nav li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-list h6 {
+    padding: 10px;
+}
+
+footer h6 {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer-icons {
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    line-height: 2px
+}
+
+.footer-icons h6 {
+    padding: 20px
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope-o {
+    padding: 20px
+}
+
+.footer-social-icons {
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-square {
+    padding: 10px;
+}
+
+footer text {
+    font-size: 15px;
+    color: rgba(200, 200, 200, 0.5);
+    margin: auto;
+    padding: 20px
+}
+
+footer text:before {
+    content: ' \00A9';
+
+}
